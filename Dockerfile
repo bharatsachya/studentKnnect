@@ -8,7 +8,7 @@ WORKDIR /usr/app
 COPY package.json .
 COPY package-lock.json .
 
-npm i
+RUN npm i
 
 COPY . .
 

@@ -5,6 +5,32 @@
 </head>
 
   <body class="text-center">
+
+    <style>
+      .form-control{
+        margin: 5px;
+      }
+
+      .form-signin{
+        height: 400px;
+        width: 340px;
+        background-color:white;
+        box-shadow: 5px 5px 0px white;
+        border: 1px solid lightgray;
+      }
+
+      body{
+        background-color: lightgray;
+      }
+      .form-signin p{
+
+        font-family: 'Times New Roman', Times, serif;
+      }
+       button{
+        position: relative;
+        top:70px;
+       }
+    </style>
     <form action="/" class="form-signin"  method="POST">
 
       <h1 class="h3 mb-3 font-weight-funk"><p>CONNECT!!!</p></h1>
@@ -15,7 +41,7 @@
       <label for="inputPassword" class="sr-only"></label>
       <input type="email" name="email" id="inputPassword" class="form-control" placeholder="Email" required>
     
-      <button class="btn btn-lg btn-primary btn-block" id="sp" type="submit">Sign in</button>
+      <button class="btn btn-lg btn-primary btn-block " id="sp" type="submit">Sign in</button>
       <p class="mt-5 mb-3 text-muted">&copy; 2023-2024</p>
     </form>
 
